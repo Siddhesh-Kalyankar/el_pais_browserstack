@@ -83,7 +83,7 @@ Running 5 parallel sessions on BrowserStack Cloud.
 
 ## 🖥️ Console Output (Final Result)
 
-![Terminal Output](public/images/Terminal Output2.png)
+![Terminal Output](public/images/Terminal_Output2.png)
 
 Outputs:
 
