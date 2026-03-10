@@ -27,25 +27,24 @@ async function createRemoteDriver(capabilities) {
         `https://${browserstackConfig.USERNAME}:${browserstackConfig.ACCESS_KEY}@hub-cloud.browserstack.com/wd/hub`
       )
       .withCapabilities({
-        browserName: capabilities.browserName,
-        browserVersion: capabilities.browserVersion,
-        platformName: capabilities.platformName,
+  browserName: capabilities.browserName,
+  browserVersion: capabilities.browserVersion,
 
-        "bstack:options": {
-          os: capabilities.os,
-          osVersion: capabilities.osVersion,
-          deviceName: capabilities.deviceName,
-          realMobile: capabilities.realMobile || false,
+  "bstack:options": {
+    os: capabilities.os,
+    osVersion: capabilities.osVersion,
+    deviceName: capabilities.deviceName,
+    realMobile: capabilities.realMobile || false,
 
-          projectName: "ElPais Automation",
-          buildName: BUILD_NAME,
-          sessionName: `${capabilities.browserName || capabilities.deviceName} - Opinion Scraper`,
+    projectName: "ElPais Automation",
+    buildName: BUILD_NAME,
+    sessionName: `${capabilities.browserName || capabilities.deviceName} - Opinion Scraper`,
 
-          local: false,
-          debug: true,
-          networkLogs: true
-        }
-      })
+    local: false,
+    debug: true,
+    networkLogs: true
+  }
+})
       .build();
 
   } catch (error) {

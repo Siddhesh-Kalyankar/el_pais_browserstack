@@ -5,13 +5,19 @@ const { OUTPUT_IMAGE_PATH } = require("../config/constants");
 
 async function downloadImage(url, filename) {
   try {
+
+    // Ensure folder exists
+    if (!fs.existsSync(OUTPUT_IMAGE_PATH)) {
+      fs.mkdirSync(OUTPUT_IMAGE_PATH, { recursive: true });
+    }
+
     const response = await axios({
       url,
-      responseType: "stream"
+      responseType: "stream",
+      timeout: 10000
     });
 
     const filePath = path.join(OUTPUT_IMAGE_PATH, filename);
-
     const writer = fs.createWriteStream(filePath);
 
     response.data.pipe(writer);

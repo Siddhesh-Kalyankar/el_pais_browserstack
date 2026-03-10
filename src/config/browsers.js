@@ -20,11 +20,13 @@ module.exports = [
   {
     deviceName: "iPhone 14",
     osVersion: "16",
-    browserName: "Safari"
+    browserName: "Safari",
+    realMobile: true
   },
   {
     deviceName: "Samsung Galaxy S23",
     osVersion: "13.0",
-    browserName: "Chrome"
+    browserName: "Chrome",
+    realMobile: true
   }
 ];

@@ -4,7 +4,6 @@ function analyzeWordFrequency(titles) {
 
   for (let title of titles) {
 
-    // Normalize
     const cleanTitle = title
       .toLowerCase()
       .replace(/[^\w\s]/g, ""); // remove punctuation
@@ -13,7 +12,7 @@ function analyzeWordFrequency(titles) {
 
     for (let word of words) {
 
-      if (word.length < 3) continue; // ignore small words like "a", "to"
+      if (!word || word.length < 3) continue; // ignore empty or small words
 
       wordMap[word] = (wordMap[word] || 0) + 1;
     }
