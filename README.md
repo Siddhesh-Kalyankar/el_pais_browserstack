@@ -140,5 +140,5 @@ Translation + Text Analytics Layer
 Real Browser Cloud Execution
 
 👨‍💻 Developer
-Sonu Kumhar
+Siddhesh Kalyankar
 Full Stack Developer | Web Scraping | Cross Browser Testing
