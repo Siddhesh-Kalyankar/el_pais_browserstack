@@ -75,7 +75,7 @@ main.js
 
 ## ⚡ Parallel Execution Log
 
-![Parallel Execution](public/images/Terminal Output1.png)
+![Parallel Execution](public/images/Terminal_Output1.png)
 
 Running 5 parallel sessions on BrowserStack Cloud.
 
