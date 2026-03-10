@@ -49,7 +49,7 @@ main.js
 
 ## 1️⃣ Build Runs Dashboard
 
-![Build Runs](public/images/img1-build-runs-dashboard.png)
+![Build Runs](public/images/Output1.png)
 
 ---
 
