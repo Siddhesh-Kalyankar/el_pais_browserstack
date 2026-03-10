@@ -55,13 +55,13 @@ main.js
 
 ## 2️⃣ Build Summary – 5 Tests Executed
 
-![Build Summary](public/images/img2-build-summary-5-tests.png)
+![Build Summary](public/images/Output2.png)
 
 ---
 
 ## 3️⃣ Parallel Cross-Browser Sessions
 
-![Cross Browser Sessions](public/images/img3-cross-browser-sessions.png)
+![Cross Browser Sessions](public/images/Output3.png)
 
 **Browsers & Devices Used:**
 
@@ -75,7 +75,7 @@ main.js
 
 ## ⚡ Parallel Execution Log
 
-![Parallel Execution](public/images/img5-parallel-execution-log.png)
+![Parallel Execution](public/images/Terminal Output1.png)
 
 Running 5 parallel sessions on BrowserStack Cloud.
 
@@ -83,7 +83,7 @@ Running 5 parallel sessions on BrowserStack Cloud.
 
 ## 🖥️ Console Output (Final Result)
 
-![Terminal Output](public/images/img4-terminal-output-results.png)
+![Terminal Output](public/images/Terminal Output2.png)
 
 Outputs:
 
